@@ -191,13 +191,13 @@
   text-align: center;
   text-transform: uppercase;
   color: #222222;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 .reasons__items {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin-bottom: 35px;
+  margin-bottom: 20px;
 }
 .reasons__item {  
   display: flex; 
@@ -229,7 +229,7 @@
 /*=app=============================================*/
 .app {
   padding-top: 50px;
-  background: url("../img/bg/mobile_cube_grid_bg.png") center/auto 100% no-repeat;
+  background: url("../img/bg/mobile_cube_grid_bg.png") center/cover no-repeat;
 
   &__subtitle {
     font-weight: 400;
@@ -288,4 +288,60 @@
     width: 26px;  
     height: 26px;
   }
+}
+
+/*=possibilities===================================*/
+
+.choice__first {
+  padding-top: 55px;
+  background-color: #070716;
+  height: 499px;
+}
+.nameplate__white {
+  background-color: white;
+  color: #000;
+}
+.choice__title {
+  margin-bottom: 10px;
+  color:white;
+}
+.choice__subtitle {
+  color:white;
+  margin-bottom: 55px;
+}
+.choice__img {
+  display: block;
+  margin: 0 auto;
+  max-width: 759px;
+}
+.choice__second {
+  height: 397px;
+  background: url("../img/bg/possibilities__bg_second.png") center/cover no-repeat;
+}
+.choice__text {
+  display: block;
+  width: 320px;
+  height: 49px;
+  margin: 0 auto;
+  padding-top: 211px;
+
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+  color: #222222;
+}
+
+/*=условия и требования==============================*/
+.conditions {
+  padding-top: 70px;
+}
+.conditions__title {
+  margin-bottom: 40px;
+}
+.conditions__items-blue {
+
+}
+.conditions__items-red {
+
 }
