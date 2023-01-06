@@ -394,3 +394,110 @@
 .conditions__list-item_red:before { 
   background: url("../icons/check_red.png") center/cover no-repeat;
 }
+
+/*=worldwide========================================*/
+.worldwide {
+  background: #080810;
+}
+.worldwide__bg {
+  padding: 50px 0;
+  height: 720px;
+  background: url("../img/bg/Worldwide.png") center/auto no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.nameplate__worldwide {
+  max-width: 75px;
+}
+.worldwide__end {
+  font-weight: 400;
+  font-size: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #1FBAD6;
+}
+
+/*=footer======================================*/
+
+.footer {
+  padding: 40px 25px;
+  background-color: rgb(255, 255, 255);
+}
+.footer__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__links {
+  width: 390px;
+  position: relative;
+  left:75px;
+}
+.footer__links-first {
+  display: flex;
+  justify-content: space-between;
+}
+.to-general-page {   
+  font-weight: 300;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #070716;
+}
+.cities {
+  font-weight: 300;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #070716;
+}
+.for-drivers {
+  font-weight: 300;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #070716;
+}
+.footer__links-second {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0;
+}
+.support-сenter {
+  font-weight: 300;
+  font-size: 11px;
+  text-transform: uppercase;
+  color: #999999;
+}
+.vacancies {
+  font-weight: 300;
+  font-size: 11px;
+  text-transform: uppercase;
+  color: #999999;
+}
+.developers {
+  font-weight: 300;
+  font-size: 11px;
+  text-transform: uppercase;
+  color: #999999;
+}
+.blog {
+  font-weight: 300;
+  font-size: 11px;
+  text-transform: uppercase;
+  color: #999999;
+}
+.about-us {
+  font-weight: 300;
+  font-size: 11px;
+  text-transform: uppercase;
+  color: #999999;
+}
+.footer__links-third {
+  display: flex;
+  justify-content: space-around;
+}
+.language {
+  display: block;
+  font-weight: 400;
+  font-size: 11px;
+  text-transform: uppercase;
+  color: #1FBAD6;
+}
